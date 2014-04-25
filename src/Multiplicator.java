@@ -15,8 +15,7 @@ public class Multiplicator
 	}
 	
 	public void DoMultiplication()
-	{
-		System.out.println("Multiplication...\n");
+	{		
 		System.out.println("Enter First Number : ");
 		int a = sc.nextInt();
 		
