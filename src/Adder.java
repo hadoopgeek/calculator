@@ -23,6 +23,7 @@ public class Adder
 		
 		int c = Add(a,b);
 		
+		System.out.println("Sum is ... ");
 		System.out.format("%d + %d = %d", a, b, c);
 				
 	}

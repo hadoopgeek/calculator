@@ -25,6 +25,7 @@ public class Subtractor
 		
 		int c = Subtract(a, b);
 		
+		System.out.println("Subtraction is ... ");
 		System.out.format("%d - %d = %d", a, b, c);
 	}
 	
