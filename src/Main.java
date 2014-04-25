@@ -41,6 +41,10 @@ public class Main
 			 Subtractor sub = new Subtractor();
 			 sub.DoSubtraction();
 			 break;
+		case 3:
+			 Multiplicator mul = new Multiplicator();
+			 mul.DoMultiplication();
+			 break;
 			 
 		}
 	}
