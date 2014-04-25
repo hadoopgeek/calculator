@@ -36,7 +36,11 @@ public class Main
 		case 1:
 			 Adder add = new Adder();
 			 add.DoAddition();
-			 
+			 break;
+		case 2:
+			 Subtractor sub = new Subtractor();
+			 sub.DoSubtraction();
+			 break;
 			 
 		}
 	}
