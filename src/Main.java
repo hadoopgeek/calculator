@@ -34,10 +34,12 @@ public class Main
 		switch(option)
 		{
 		case 1:
+			 System.out.println("Selected Addition");
 			 Adder add = new Adder();
 			 add.DoAddition();
 			 break;
 		case 2:
+			System.out.println("Selected Subtraction");
 			 Subtractor sub = new Subtractor();
 			 sub.DoSubtraction();
 			 break;
