@@ -16,7 +16,7 @@ public class Subtractor
 	
 	public void DoSubtraction()
 	{
-		System.out.println("Subtraction...\n");
+		
 		System.out.println("Enter First Number : \n");
 		int a = sc.nextInt();
 		
@@ -24,8 +24,7 @@ public class Subtractor
 		int b = sc.nextInt();
 		
 		int c = Subtract(a, b);
-		
-		System.out.println("Subtraction is ... ");
+				
 		System.out.format("%d - %d = %d", a, b, c);
 	}
 	
