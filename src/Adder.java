@@ -14,7 +14,6 @@ public class Adder
 	}
 	public void DoAddition()
 	{
-		System.out.println("Addition...\n");
 		System.out.println("Enter First Number : ");
 		int a = sc.nextInt();
 		
@@ -22,7 +21,7 @@ public class Adder
 		int b = sc.nextInt();
 		
 		int c = Add(a,b);
-		
+
 		System.out.format("%d + %d = %d", a, b, c);
 				
 	}
